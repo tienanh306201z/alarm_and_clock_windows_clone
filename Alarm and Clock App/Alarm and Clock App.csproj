@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{58920F42-0EC1-42AE-AA4E-9379068B2C72}</ProjectGuid>
+        <OutputType>WinExe</OutputType>
+        <RootNamespace>Alarm_and_Clock_App</RootNamespace>
+        <AssemblyName>Alarm_and_Clock_App</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <Deterministic>true</Deterministic>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3">
+          <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="Microsoft.Office.Tools.Common.v9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Tools.Common.v9.0\9.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Common.v9.0.dll</HintPath>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Xml.Linq" />
+        <Reference Include="System.Data.DataSetExtensions" />
+        <Reference Include="Microsoft.CSharp" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Deployment" />
+        <Reference Include="System.Drawing" />
+        <Reference Include="System.Net.Http" />
+        <Reference Include="System.Windows.Forms" />
+        <Reference Include="System.Xml" />
+        <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3">
+          <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Form1.cs">
+            <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="Form1.Designer.cs">
+            <DependentUpon>Form1.cs</DependentUpon>
+        </Compile>
+        <Compile Include="MyCheckBox.cs" />
+        <Compile Include="Program.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SetAlarmTime.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="SetAlarmTime.Designer.cs">
+          <DependentUpon>SetAlarmTime.cs</DependentUpon>
+        </Compile>
+        <Compile Include="SetStopWatchTime.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="SetStopWatchTime.Designer.cs">
+          <DependentUpon>SetStopWatchTime.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Time.cs" />
+        <Compile Include="TimeUp.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="TimeUp.Designer.cs">
+          <DependentUpon>TimeUp.cs</DependentUpon>
+        </Compile>
+        <Compile Include="uc_Module1.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="uc_Module1.Designer.cs">
+          <DependentUpon>uc_Module1.cs</DependentUpon>
+        </Compile>
+        <Compile Include="uc_Module2.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="uc_Module2.Designer.cs">
+          <DependentUpon>uc_Module2.cs</DependentUpon>
+        </Compile>
+        <Compile Include="uc_Module3.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="uc_Module3.Designer.cs">
+          <DependentUpon>uc_Module3.cs</DependentUpon>
+        </Compile>
+        <Compile Include="uc_Module4.cs">
+          <SubType>UserControl</SubType>
+        </Compile>
+        <Compile Include="uc_Module4.Designer.cs">
+          <DependentUpon>uc_Module4.cs</DependentUpon>
+        </Compile>
+        <EmbeddedResource Include="Form1.resx">
+          <DependentUpon>Form1.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+            <SubType>Designer</SubType>
+        </EmbeddedResource>
+        <Compile Include="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+        <EmbeddedResource Include="SetAlarmTime.resx">
+          <DependentUpon>SetAlarmTime.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="SetStopWatchTime.resx">
+          <DependentUpon>SetStopWatchTime.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="TimeUp.resx">
+          <DependentUpon>TimeUp.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="uc_Module1.resx">
+          <DependentUpon>uc_Module1.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="uc_Module2.resx">
+          <DependentUpon>uc_Module2.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="uc_Module3.resx">
+          <DependentUpon>uc_Module3.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="uc_Module4.resx">
+          <DependentUpon>uc_Module4.cs</DependentUpon>
+        </EmbeddedResource>
+        <None Include="packages.config" />
+        <None Include="Properties\Settings.settings">
+            <Generator>SettingsSingleFileGenerator</Generator>
+            <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+        </None>
+        <Compile Include="Properties\Settings.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Settings.settings</DependentUpon>
+            <DesignTimeSharedInput>True</DesignTimeSharedInput>
+        </Compile>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="App.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Resources\2849830-gear-interface-multimedia-options-setting-settings_107986.png" />
+      <Content Include="Resources\alarmclock_alarm_3338.ico" />
+      <Content Include="Resources\alarmclock_alarm_3338.png" />
+      <Content Include="Resources\alarmclock_alarm_33381.png" />
+      <Content Include="Resources\close_111152.ico" />
+      <Content Include="Resources\facebook_socialnetwork_17442.png" />
+      <Content Include="Resources\facebook_socialnetwork_174421.png" />
+      <Content Include="Resources\iconfinder-social-media-applications-3instagram-4102579_113804.png" />
+      <Content Include="Resources\iconfinder_social_media_applications_3instagram_4102579_113804.png" />
+      <Content Include="Resources\notification_alarm_bell_icon_1468631.png" />
+      <Content Include="Resources\stopwatch_21_512.png" />
+      <Content Include="Resources\stopwatch_21_5121.png" />
+      <Content Include="Resources\timer1.png" />
+      <Content Include="Resources\window_minimize_icon_1380091.png" />
+      <Content Include="Resources\wordpress_icon-icons.com_53600.png" />
+      <Content Include="Resources\wordpress_icon_icons.png" />
+      <Content Include="Resources\_134_1344785_windows_settings_app_icon_windows_10_settings_icon.png" />
+      <Content Include="Resources\_134_1344785_windows_settings_app_icon_windows_10_settings_icon1.png" />
+      <Content Include="Resources\_1485477104_basket_78591.ico" />
+      <Content Include="Resources\_171353902_1699765133542263_8789632920451818818_n.jpg" />
+      <Content Include="Resources\_2849830_gear_interface_multimedia_options_setting_settings_107986.png" />
+      <Content Include="Resources\_367_3674022_alarm_clock_windows_10_alarm_clock_icon_hd.png" />
+      <Content Include="Resources\_81a4690084d44b89830dd3b8c15be127.png" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

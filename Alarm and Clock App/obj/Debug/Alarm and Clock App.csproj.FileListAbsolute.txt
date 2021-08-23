@@ -1,0 +1,22 @@
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\bin\Debug\Alarm_and_Clock_App.exe.config
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\bin\Debug\Alarm_and_Clock_App.exe
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\bin\Debug\Alarm_and_Clock_App.pdb
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm and Clock App.csprojAssemblyReference.cache
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.Properties.Resources.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm and Clock App.csproj.GenerateResource.cache
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm and Clock App.csproj.CoreCompileInputs.cache
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.exe
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.pdb
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.Form1.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.uc_Module1.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.uc_Module2.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.uc_Module3.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\bin\Debug\CircularProgressBar.dll
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\bin\Debug\WinFormAnimation.dll
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\bin\Debug\CircularProgressBar.xml
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm and Clock App.csproj.CopyComplete
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.SetStopWatchTime.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.TimeUp.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.uc_Module4.resources
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\bin\Debug\Microsoft.Office.Tools.Common.v9.0.dll
+D:\Rider Project\Alarm and Clock App\Alarm and Clock App\obj\Debug\Alarm_and_Clock_App.SetAlarmTime.resources
